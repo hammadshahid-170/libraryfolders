@@ -1,0 +1,77 @@
+{
+  "_from": "js-file-downloader@^1.1.10",
+  "_id": "js-file-downloader@1.1.10",
+  "_inBundle": false,
+  "_integrity": "sha512-BY6cos/aYnmIhCgGaOdLvZYOE4mM2YIQDK9c77e+b6ekSY983L8G7rgPaQSNGJuscw0eAKtw9hgsJz+NQo6hMQ==",
+  "_location": "/js-file-downloader",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "js-file-downloader@^1.1.10",
+    "name": "js-file-downloader",
+    "escapedName": "js-file-downloader",
+    "rawSpec": "^1.1.10",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.10"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/js-file-downloader/-/js-file-downloader-1.1.10.tgz",
+  "_shasum": "f86a43e4c2826339124fa80fca611beb79235e91",
+  "_spec": "js-file-downloader@^1.1.10",
+  "_where": "E:\\Projects BackUp\\ResourcePlanning",
+  "author": {
+    "name": "Alessandro Pellizzari"
+  },
+  "bugs": {
+    "url": "https://github.com/AleeeKoi/js-file-downloader/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Small lib for a cool download experience",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "eslint-loader": "^2.2.1",
+    "jsdom": "^13.2.0",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^5.2.0",
+    "string-replace-loader": "^2.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "homepage": "https://github.com/AleeeKoi/js-file-downloader#readme",
+  "keywords": [
+    "download",
+    "status",
+    "downloader",
+    "file",
+    "javascript",
+    "client",
+    "browser"
+  ],
+  "license": "MIT",
+  "main": "dist/js-file-downloader.js",
+  "name": "js-file-downloader",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleeeKoi/js-file-downloader.git"
+  },
+  "scripts": {
+    "build": "webpack --env dev && webpack --env build",
+    "dev": "webpack --progress --colors --env dev",
+    "test": "mocha --require @babel/register --colors ./test/*.js",
+    "test:watch": "mocha --require @babel/register --colors -w ./test/*.js"
+  },
+  "version": "1.1.10"
+}

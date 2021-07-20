@@ -1,0 +1,66 @@
+{
+  "_from": "@pnp/polyfill-ie11",
+  "_id": "@pnp/polyfill-ie11@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-vJstDMgwCsRWbZIzUJGvBmd8932jL1DwItyESQFV0HWaOKIe5erjnbeVHSOHkxTWNNx/KWDjB2IcbW6er0MfMw==",
+  "_location": "/@pnp/polyfill-ie11",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@pnp/polyfill-ie11",
+    "name": "@pnp/polyfill-ie11",
+    "escapedName": "@pnp%2fpolyfill-ie11",
+    "scope": "@pnp",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@pnp/polyfill-ie11/-/polyfill-ie11-1.0.2.tgz",
+  "_shasum": "a3d4efc9a57e5309f28b10dea672cb1b3e98fddc",
+  "_spec": "@pnp/polyfill-ie11",
+  "_where": "D:\\safety_visit",
+  "author": {
+    "name": "Microsoft and other contributors"
+  },
+  "bugs": {
+    "url": "https://github.com/pnp/pnpjs/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@types/core-js": "2.5.0",
+    "core-js": "2.6.2",
+    "es6-map": "0.1.5",
+    "whatwg-fetch": "3.0.0"
+  },
+  "deprecated": false,
+  "description": "pnp - provides required polyfills for ie11",
+  "devDependencies": {
+    "awesome-typescript-loader": "5.2.1",
+    "typescript": "^3.2.2",
+    "webpack": "4.28.4"
+  },
+  "homepage": "https://github.com/pnp/pnpjs",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "name": "@pnp/polyfill-ie11",
+  "peerDependencies": {
+    "@pnp/logging": "*",
+    "@pnp/common": "*",
+    "@pnp/odata": "*",
+    "@pnp/sp": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pnp/pnpjs.git"
+  },
+  "scripts": {
+    "bundle": "webpack"
+  },
+  "types": "./dist",
+  "version": "1.0.2"
+}
